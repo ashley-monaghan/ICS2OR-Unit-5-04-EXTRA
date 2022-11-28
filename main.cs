@@ -20,7 +20,7 @@ class Program
         Console.WriteLine("");
         userAge = Convert.ToInt16(Console.ReadLine());
         userDay = (Console.ReadLine());
-        
+
         Console.WriteLine(" ");
         if ((userDay == "Tuesday" || userDay == "Thursday") || (userAge > 12 && userAge < 21))
         {
